@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --white: #ffffff;
+    --blue:  #549FFD;
+    --middleblue: #8DDEFD;
+    --gray: #F4F7FD;
+}
+a{
+    color: var(--white);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 35px 50px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+ul {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 3rem;
+}
+
+ul li {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+                        /*First Section*/
+
+.first-section{
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: var(--blue);
+    color: var(--white);
+    
+}
+
+.first-section .text{
+    width:45%;
+    height: 50vh;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-section .img{
+    width:40%;
+    height: 50vh;
+    margin-top: -50px;
+    margin-left: 40px;
+    
+}
+
+
+.first-section .text h1{
+    font-size: 4.5rem;
+    font-weight: 100;
+    margin-left: 200px;
+}
+
+.first-section .text p{
+    font-size: 1rem;
+    line-height: 4rem;
+    margin-left: 200px;
+}
+
+.first-section .text button{
+    background-color: var(--middleblue);
+    color: initial;
+    width: 191px;
+    height: 51px;
+    border: none;
+    border-radius: .7rem;
+    font-weight: 600;
+    margin-left: 200px;
+}
+
+                                /*Second Section*/
+
+.second-section{
+    display: flex;
+    height: 12rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+    transform: translateX(60%);
+    width: 50rem;
+    z-index: 100;
+    border-radius: .7rem;
+    background-color: var(--gray);
+}
+.secondImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50rem;
+    height: 12rem;
+    border-radius: .7rem;
+}
+.textos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50rem;
+    margin-top:- 20px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.securit{
+    width: 326px;
+    height: 219px;
+}
+
+
+
+                            /*Third Section*/
+
+.third-section{
+    width: 100%;
+    height: 90vh;
+    margin-top: 13rem;
+    padding: 0px 60px;
+    margin: 0 auto;
+}
+
+.third-section h1{
+    font-size: 40px;
+    color: var(--blue);
+    padding: 2rem;
+    margin-bottom: .5rem;
+}
+
+.third-section div.left{
+    display: block;
+    float: left;
+    width: 40%;
+}
+
+.third-section h2{
+    font-size: 5rem;
+    padding: .3rem;
+    color:  rgba(0, 0, 0, 0.47);
+}
+
+.third-section h3{
+    font-size: 1.3rem;
+    color:  var(--blue);
+    margin-bottom: 1rem;
+}
+
+.third-section p{
+    font-size: 1.2rem;
+    color:  rgba(0, 0, 0, 0.47);
+    margin-bottom: 1.3rem;
+}
+
+.third-section div.right{
+    display: block;
+    float: right;
+    width: 40%;
+    margin-left: 40px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 5rem;
+}
+
+footer .one, .two, .three{
+    display: block;
+    float: inline-end;
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+div.footer{
+    display: flex;
+    padding: 3rem;
+    margin-top: 10rem;
+    justify-content: space-between;
+    border-top: solid .1rem var(--white);
+    border-bottom: solid .1rem var(--white);
+}
+
+div.footer h4{
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+div.footer input{
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--gray);
+    font-size: 1.3rem;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.47);
+    font-size: 1.3rem;
+    padding: 2rem;
+}
+
+div.footer button{
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--middleblue);
+    margin-left: -10rem;
+    color: var(--white);
+    font-size: 1.7rem;
+}
+
+footer .last-ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 12rem 0 12rem;
+}
